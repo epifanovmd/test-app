@@ -97,6 +97,7 @@ export class TableCellSection extends Component<IProps, IState> {
   };
 
   private toggleOpenSection = () => {
+    React.Children.map(this.props.children, (item) => item) &&
     React.Children.map(this.props.children, (item) => item).length > 0 &&
     this.setState((state: IState) => ({isOpen: !state.isOpen}));
   };
