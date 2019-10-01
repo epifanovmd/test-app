@@ -90,7 +90,7 @@ export class TableCellSection extends Component<IProps, IState> {
     const arrRows = [];
     for (let i = 0; i < countLoop; i++) {
       !isOpen && arrRows.push(
-        <div className="tableData__empty-row" />);
+        <div key={i} className="tableData__empty-row" />);
     }
 
     return arrRows;
