@@ -1,0 +1,19 @@
+.tableCellSection {
+  &__header {
+    border-top: 1px solid #dcdcdc;
+    box-sizing: border-box;
+  }
+
+  &__row {
+  }
+
+  &__title {
+    border-right: 1px solid #dcdcdc;
+    padding: 8px;
+  }
+
+  &__sections {
+    display: flex;
+    flex-grow: 1;
+  }
+}

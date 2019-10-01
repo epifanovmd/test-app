@@ -1,0 +1,10 @@
+.tableRowSection {
+  padding-left: 10px;
+
+  &__name {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dcdcdc;
+    height: 35px;
+  }
+}

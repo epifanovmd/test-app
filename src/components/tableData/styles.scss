@@ -1,0 +1,20 @@
+.tableData {
+  display: flex;
+  overflow: auto;
+  width: fit-content;
+  border: 1px solid #dcdcdc;
+  padding: 0 !important;
+
+  &__empty-row {
+    height: 35px;
+  }
+
+  &__sections-wrap {
+    border-left: 1px solid #dcdcdc;
+  }
+
+  &__rows {
+    width: 300px;
+    min-width: 300px;
+  }
+}
