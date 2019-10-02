@@ -18,7 +18,15 @@ const listQuarters: IList[] = [
   },
   {
     name: "II кв. 2019",
-    date: "2019-05-01",
+    date: "2019-04-01",
+  },
+  {
+    name: "III кв. 2019",
+    date: "2019-07-01",
+  },
+  {
+    name: "IV кв. 2019",
+    date: "2019-10-01",
   },
 ];
 
@@ -28,16 +36,51 @@ const listMonths: IList[] = [
     date: "2019-01-01",
   },
   {
+    name: "Февраль",
+    date: "2019-02-01",
+  },
+  {
+    name: "Март",
+    date: "2019-03-01",
+  },
+  {
+    name: "Апрель",
+    date: "2019-04-01",
+  },
+  {
     name: "Май",
     date: "2019-05-01",
   },
-];
-const listDays: IList[] = [
   {
-    name: "01",
-    date: "2019-01-01",
+    name: "Июнь",
+    date: "2019-06-01",
+  },
+  {
+    name: "Июель",
+    date: "2019-07-01",
+  },
+  {
+    name: "Август",
+    date: "2019-08-01",
+  },
+  {
+    name: "Сентябрь",
+    date: "2019-09-01",
+  },
+  {
+    name: "Октябрь",
+    date: "2019-10-01",
+  },
+  {
+    name: "Ноябрь",
+    date: "2019-11-01",
+  },
+  {
+    name: "Декабрь",
+    date: "2019-12-01",
   },
 ];
+const listDays: IList[] = [];
 
 const data: IData[] = [
   {
@@ -49,180 +92,335 @@ const data: IData[] = [
           {
             name: "Дом",
             listChild: [],
-            listDayValues: [{
-              fact: 110322305,
-              plan: 110322305,
-              date: "2019-01-01",
-            }],
-            listMonthValues: [{
-              fact: 110322305,
-              plan: 110322305,
-              date: "2019-01-01",
-            }],
-            listQuarterValues: [{
-              fact: 110322305,
-              plan: 110322305,
-              date: "2019-01-01",
-            }],
-            listYearValues: [{
-              fact: 3,
-              plan: 110322305,
-              date: "2019-01-01",
-            }],
+            listDayValues: [],
+            listMonthValues: [
+              {
+                fact: 123,
+                plan: 123,
+                date: "2019-01-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-02-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-03-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-04-01",
+              },          {
+                fact: 123,
+                plan: 12,
+                date: "2019-05-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-06-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-07-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-08-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-09-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-10-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-11-01",
+              },          {
+                fact: 123,
+                plan: 123,
+                date: "2019-12-01",
+              },
+            ],
+            listQuarterValues: [
+              {
+                fact: 223,
+                plan: 223,
+                date: "2019-01-01",
+              },
+              {
+                fact: 223,
+                plan: 223,
+                date: "2019-04-01",
+              },
+              {
+                fact: 223,
+                plan: 223,
+                date: "2019-07-01",
+              },
+              {
+                fact: 223,
+                plan: 223,
+                date: "2019-10-01",
+              },
+            ],
+            listYearValues: [
+              {
+                fact: 323,
+                plan: 323,
+                date: "2019-01-01",
+              },
+            ],
           },
         ],
-        listDayValues: [{
-          fact: 110322305,
-          plan: 110322305,
-          date: "2019-01-01",
-        }],
-        listMonthValues: [{
-          fact: 110322305,
-          plan: 110322305,
-          date: "2019-01-01",
-        }],
-        listQuarterValues: [{
-          fact: 110322305,
-          plan: 110322305,
-          date: "2019-01-01",
-        }],
-        listYearValues: [{
-          fact: 2,
-          plan: 110322305,
-          date: "2019-01-01",
-        }],
-      },
-    ],
-    listDayValues: [{
-      fact: 507523501,
-      plan: 507523501,
-      date: "2019-01-01",
-    }, {
-      fact: 507523501,
-      plan: 507523501,
-      date: "2019-05-01",
-    }],
-    listMonthValues: [{
-      fact: 507523501,
-      plan: 507523501,
-      date: "2019-01-01",
-    }, {
-      fact: 507523501,
-      plan: 507523501,
-      date: "2019-05-01",
-    }],
-    listQuarterValues: [{
-      fact: 507523501,
-      plan: 507523501,
-      date: "2019-01-01",
-    }, {
-      fact: 507523501,
-      plan: 507523501,
-      date: "2019-05-01",
-    }],
-    listYearValues: [{
-      fact: 1,
-      plan: 507523501,
-      date: "2019-01-01",
-    }, {
-      fact: 1,
-      plan: 507523501,
-      date: "2019-03-01",
-    }],
-  }, {
-    name: "Себестоимость",
-    listChild: [
-      {
-        name: "Гараж",
-        listChild: [],
-        listDayValues: [
-          {
-            fact: 564987194,
-            plan: 564987194,
-            date: "2019-01-01",
-          }, {
-            fact: 564987194,
-            plan: 564987194,
-            date: "2019-05-01",
-          },
-        ],
+        listDayValues: [],
         listMonthValues: [
           {
-            fact: 564987194,
-            plan: 564987194,
+            fact: 11,
+            plan: 11,
             date: "2019-01-01",
-          }, {
-            fact: 564987194,
-            plan: 564987194,
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-02-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-03-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-04-01",
+          },          {
+            fact: 11,
+            plan: 11,
             date: "2019-05-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-06-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-07-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-08-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-09-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-10-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-11-01",
+          },          {
+            fact: 11,
+            plan: 11,
+            date: "2019-12-01",
           },
         ],
         listQuarterValues: [
           {
-            fact: 564987194,
-            plan: 564987194,
+            fact: 22,
+            plan: 22,
             date: "2019-01-01",
-          }, {
-            fact: 564987194,
-            plan: 564987194,
-            date: "2019-05-01",
+          },
+          {
+            fact: 22,
+            plan: 22,
+            date: "2019-04-01",
+          },
+          {
+            fact: 22,
+            plan: 22,
+            date: "2019-07-01",
+          },
+          {
+            fact: 22,
+            plan: 22,
+            date: "2019-10-01",
           },
         ],
         listYearValues: [
           {
-            fact: 564987194,
-            plan: 564987194,
+            fact: 33,
+            plan: 33,
             date: "2019-01-01",
-          }, {
-            fact: 564987194,
-            plan: 564987194,
-            date: "2019-05-01",
           },
         ],
       },
     ],
-    listDayValues: [
-      {
-        fact: 564987194,
-        plan: 564987194,
-        date: "2019-01-01",
-      }, {
-        fact: 564987194,
-        plan: 564987194,
-        date: "2019-05-01",
-      },
-    ],
+    listDayValues: [],
     listMonthValues: [
       {
-        fact: 564987194,
-        plan: 564987194,
+        fact: 1,
+        plan: 1,
         date: "2019-01-01",
-      }, {
-        fact: 564987194,
-        plan: 564987194,
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-02-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-03-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-04-01",
+      },          {
+        fact: 1,
+        plan: 1,
         date: "2019-05-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-06-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-07-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-08-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-09-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-10-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-11-01",
+      },          {
+        fact: 1,
+        plan: 1,
+        date: "2019-12-01",
       },
     ],
     listQuarterValues: [
       {
-        fact: 564987194,
-        plan: 564987194,
+        fact: 2,
+        plan: 2,
         date: "2019-01-01",
-      }, {
-        fact: 564987194,
-        plan: 564987194,
-        date: "2019-05-01",
+      },
+      {
+        fact: 2,
+        plan: 2,
+        date: "2019-04-01",
+      },
+      {
+        fact: 2,
+        plan: 2,
+        date: "2019-07-01",
+      },
+      {
+        fact: 2,
+        plan: 2,
+        date: "2019-10-01",
       },
     ],
     listYearValues: [
       {
-        fact: 564987194,
-        plan: 564987194,
+        fact: 3,
+        plan: 3,
         date: "2019-01-01",
-      }, {
-        fact: 564987194,
-        plan: 564987194,
+      },
+    ],
+  }, {
+    name: "Себестоимость",
+    listChild: [],
+    listDayValues: [],
+    listMonthValues: [
+      {
+        fact: 12,
+        plan: 12,
+        date: "2019-01-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-02-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-03-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-04-01",
+      },          {
+        fact: 12,
+        plan: 12,
         date: "2019-05-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-06-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-07-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-08-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-09-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-10-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-11-01",
+      },          {
+        fact: 12,
+        plan: 12,
+        date: "2019-12-01",
+      },
+    ],
+    listQuarterValues: [
+      {
+        fact: 22,
+        plan: 22,
+        date: "2019-01-01",
+      },
+      {
+        fact: 22,
+        plan: 22,
+        date: "2019-04-01",
+      },
+      {
+        fact: 22,
+        plan: 22,
+        date: "2019-07-01",
+      },
+      {
+        fact: 22,
+        plan: 22,
+        date: "2019-10-01",
+      },
+    ],
+    listYearValues: [
+      {
+        fact: 32,
+        plan: 32,
+        date: "2019-01-01",
       },
     ],
   },
